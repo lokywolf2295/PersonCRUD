@@ -23,16 +23,15 @@
 
 ### Paso a paso para la utilización de este proyecto:
 
-<ol>
-    <li>Clonar el proyecto en su dispositivo local</li>
-    <li>Crear Base de Datos en MySQL con el nombre: "<b>db_person_crud</b>"</li>
-    <li>Abrir proyecto utilizando tu IDE favorito: en mi caso <b>Intellij IDEA</b></li>
-    <li>Permitir que corra <b>Maven</b> para la descarga de las Dependencias y actualización del Proyecto</li>
-    <li>Utilizar sistema de gestión de bases de datos: en mi caso <b>XAMP</b>, para abrir los puertos de conexión</li>
-    <li>Correr el Proyecto</li>
-    <li>Verificar en la Terminal de "<b>Run</b>" que no hayan errores al ejecutarse el proyecto</li>
-    <li>Descargar el archivo Person.postman_collection.json que se encuentra en este repositorio</li>
-    <li>Abri la aplicación Postman e importar el archivo JSON descargado anteriormente</li>
-    <li>Probar los endpoints utilizando las pruebas creadas en el Json para gestionar el CRUD</li>
+1. Clonar el proyecto en su dispositivo local
+![Clonar Repositorio](https://i.postimg.cc/R028LM1f/Clonar.png)
 
-</ol>
+2. Crear Base de Datos en MySQL con el nombre: "<b>db_person_crud</b>"
+3. Abrir proyecto utilizando tu IDE favorito: en mi caso <b>Intellij IDEA</b>
+4. Permitir que corra <b>Maven</b> para la descarga de las Dependencias y actualización del Proyecto
+5. Utilizar sistema de gestión de bases de datos: en mi caso <b>XAMP</b>, para abrir los puertos de conexión
+6. Correr el Proyecto
+7. Verificar en la Terminal de "<b>Run</b>" que no hayan errores al ejecutarse el proyecto
+8. Descargar el archivo Person.postman_collection.json que se encuentra en este repositorio
+9. Abri la aplicación Postman e importar el archivo JSON descargado anteriormente
+10. Probar los endpoints utilizando las pruebas creadas en el Json para gestionar el CRUD
