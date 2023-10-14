@@ -27,7 +27,7 @@ public class PersonController {
     @GetMapping("/all")
     public ResponseEntity<List<PersonResponseDTO>> getAllPersons(){
         List<PersonResponseDTO> persons = service.getAllPersons();
-        return ResponseEntity.ok(service.getAllPersons());
+        return ResponseEntity.ok(persons);
     }
 
     @GetMapping("/get_person/{id}")
